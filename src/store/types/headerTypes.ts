@@ -1,0 +1,2 @@
+export const UPDATE_TIME = 'HEADER/UPDATE_TIME';
+export const UPDATE_LANG = 'HEADER/UPDATE_LANG';

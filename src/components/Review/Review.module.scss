@@ -1,0 +1,29 @@
+.review {
+  border: {
+    bottom: 2px solid rgba(211, 211, 211, 0.2);
+  }
+  margin: {
+    bottom: 20px;
+  }
+  padding: {
+    bottom: 4px;
+  }
+
+  & p {
+    margin: 0;
+
+    &:first-child {
+      font-size: 18px;
+      font-weight: 700;
+      letter-spacing: 1px;
+    }
+
+    &:nth-child(2) {
+      padding: 4px 100px 8px 0;
+    }
+
+    &:last-child {
+      text-align: right;
+    }
+  }
+}
