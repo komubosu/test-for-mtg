@@ -4,6 +4,7 @@ import svgr from 'vite-plugin-svgr';
 
 // https://vitejs.dev/config/
 export default defineConfig({
+  base: '/test-for-mtg/',
   plugins: [
     react(),
     svgr({
