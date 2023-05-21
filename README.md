@@ -25,6 +25,7 @@
 - TypeScript
 - React(class components)
 - Redux
+- module css
 - scss
 
 **GitHub Pages**
